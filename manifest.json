@@ -1,0 +1,19 @@
+{
+    "manifest_version": 2,
+    "name": "Mecha Jordan",
+    "version": "1.0",
+  
+    "description": "Randomly selects moves on pokemonshowdown.com",
+    "homepage_url": "https://github.com/chisschwartz/showdown-random-bot",
+    "icons": {
+      "48": "icons/"
+    },
+  
+    "permissions": ["activeTab"],
+  
+    "browser_action": {
+      "default_icon": "icons/",
+      "default_title": "Mecha Jordan",
+      "default_popup": "popup/mechaJordan.html"
+    }
+  }
