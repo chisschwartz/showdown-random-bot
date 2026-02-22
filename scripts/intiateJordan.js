@@ -9,19 +9,19 @@
 
     //generates random number between 1-10 for grabbing purposes
     function getRandomNum(isRunning) {
-        While (isRunning == true); {
-        return Math.floor(Math.random() * 10);
+        while (isRunning == true) {
+            return Math.floor(Math.random() * 10);
         }
     }
 
+    //commands for the buttons to start and stop the script
     browser.runtime.onMessage.addListener((message) => {
         if(message.command === "intiate"){
             isRunning = true;
-            getRandomNum();
+            getRandomNum(isRunning);
 
         } else if (message.command === "stop") {
             isRunning = false;
-            //stop script
         }
     })
 })
