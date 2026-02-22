@@ -1,0 +1,19 @@
+html,
+body {
+    width: 100px
+}
+
+button {
+    border: 5px;
+    width: 100%;
+    margin: auto;
+    padding: 5px;
+    text-align: center;
+    font-size: medium;
+    cursor: pointer;
+    background-color: green;
+}
+
+button[type="stop"] {
+    background-color: red;
+}
