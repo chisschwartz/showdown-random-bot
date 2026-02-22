@@ -17,3 +17,7 @@ button {
 button[type="stop"] {
     background-color: red;
 }
+
+.hidden {
+    display: none;
+}
