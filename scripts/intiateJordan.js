@@ -19,6 +19,7 @@
         if(message.command === "intiate"){
             isRunning = true;
             getRandomNum(isRunning);
+            console.log(getRandomNum(isRunning))
 
         } else if (message.command === "stop") {
             isRunning = false;
