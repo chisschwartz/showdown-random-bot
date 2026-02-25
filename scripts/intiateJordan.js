@@ -5,7 +5,7 @@
     window.hasRun = true;
 
     //sets a variable that lets us turn on and off the script
-    let isRunning = false;
+    let isRunning = true;
     // let randomNum = 0;
 
     //generates random number between 1-10 for grabbing purposes
